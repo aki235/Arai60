@@ -30,11 +30,11 @@ class Solution:
 # Step2
 
 ## 読んだコード
-https://github.com/olsen-blue/Arai60/pull/11
-https://github.com/hayashi-ay/leetcode/pull/14
-https://github.com/Fuminiton/LeetCode/pull/11
-https://github.com/ryosuketc/leetcode_arai60/pull/11
-https://github.com/potrue/leetcode/pull/11
+- https://github.com/olsen-blue/Arai60/pull/11
+- https://github.com/hayashi-ay/leetcode/pull/14
+- https://github.com/Fuminiton/LeetCode/pull/11
+- https://github.com/ryosuketc/leetcode_arai60/pull/11
+- https://github.com/potrue/leetcode/pull/11
 
 ## 感想
 - ブルートフォースでも解ける
@@ -55,7 +55,7 @@ https://github.com/potrue/leetcode/pull/11
         - 〃　　　　　　　　　　 targetより大きいとき: 右のポインタを左に1つ移動
     - これを繰り返せば、ポインタの間隔が狭まっていって必ず正解の値に辿り着くし、正解を通り越してしまうということもない(片方が正解に乗った時点で、targetとの大小関係からもう片方しか動かないから)
     - 時間計算量はO(N logN)、空間計算量はO(1)
-        - ただ、結局新しくソートされた配列を作るから、空間計算量はO(N)かかる
+        - ただ、結局新しくソートされた配列を作ると、空間計算量はO(N)かかる
 - 変数名
     - complement, num_to_indexが良いと思った
 
