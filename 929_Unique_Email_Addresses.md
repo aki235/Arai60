@@ -94,7 +94,7 @@ class Solution:
             plus_ignored_local_name = re.sub(r"\+.*", "", local_name)
             dot_removed_local_name = re.sub(r"\.", "", plus_ignored_local_name)
 
-            normalized_emails.add(f"{dot_removed_local_name}@ {domain_name}")
+            normalized_emails.add(f"{dot_removed_local_name}@{domain_name}")
         return len(normalized_emails)
 ```
 
