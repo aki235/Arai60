@@ -2,9 +2,8 @@
 https://leetcode.com/problems/max-area-of-island/description/
 
 # Step1
-- Number of Islandsのスタックを用いた方法([前回のPR](https://github.com/aki235/Arai60/pull/17))を少し書き換えればできそう
-    - すぐにACできた
-- 再帰だと島の大きさを保持するのが少し大変そう？
+- Number of Islandsのスタックを用いた方法([前回のPR](https://github.com/aki235/Arai60/pull/17))を少し書き換えればできそう→すぐにACできた
+- 再帰だと島の大きさを保持するのが大変そう
 
 ```Python3
 class Solution:
